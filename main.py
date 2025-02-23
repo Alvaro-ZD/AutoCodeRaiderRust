@@ -19,7 +19,7 @@ def record_positions():
         pos = mouse.get_position()
         positions[str(i)] = {"x": pos[0], "y": pos[1]}
         print(f"Click for {i}: {pos}")
-        time.sleep(0.5)
+        time.sleep(0.1)
     with open("positions.json", "w") as f:
         json.dump(positions, f, indent=2)
     print("Positions saved in positions.json")
@@ -68,7 +68,7 @@ def process_code(code, positions):
         print(f"Clicking for digit {digit} at position ({pos['x']}, {pos['y']})")
         mouse.move(pos['x'], pos['y'], absolute=True, duration=0.2)
         mouse.click('left')
-        time.sleep(0.5)
+        time.sleep(0.1)
     print("Sequence completed.\n")
 
 def main():
