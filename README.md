@@ -39,6 +39,6 @@ The project functions as follows:
 
 ## Project Purpose
 
-The objective of this project is to automate the repetitive process of code input during a code raid in a game. By doing so, it simplifies testing multiple code combinations while keeping track of progress, so the user can focus on other aspects of the game.
+The objective of this project is to automate the repetitive process of code input during a code raid in a game. By doing so, it simplifies testing multiple code combinations while keeping track of progress.
 
 Happy coding!
