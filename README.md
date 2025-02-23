@@ -1,6 +1,6 @@
 # Auto Code Raider Rust
 
-This is a Python project that simulates mouse clicks based on recorded positions and a list of 4-digit codes.
+Auto Code Raider Rust is a project designed to automate the process of entering codes in a game to perform a code raid. The list of codes is organized based on the most common codes used in the game, and the tool keeps track of your progress through the list. You simply need to press F7 to test all possible combinations, while the system automatically handles the code entry and saves your progress.
 
 ## Project Overview
 
@@ -20,29 +20,25 @@ The project functions as follows:
   - **Single press F7:** Process the next code in the list.
 
 - **Persistence:**  
-  The project's current code index is stored in `last_used.txt`, allowing processing continuity between sessions.
+  The project's current code index is stored in `last_used.txt`, ensuring that progress through the list is saved between sessions.
 
 ## Usage Instructions
 
 1. **Setup:**  
-   Make sure you have the required packages installed:
-   - `mouse`
-   - `pynput`
-
-   You can install them via pip:
+   Ensure the required packages are installed:
    ```
    pip install mouse pynput
    ```
 
 2. **Running the Project:**  
-   Execute the script:
+   Run the script:
    ```
    python main.py
    ```
    Follow the on-screen instructions to record positions and process codes.
 
-## Repository
+## Project Purpose
 
-This project has been initialized as a Git repository under the name **Auto Code Raider Rust**. It is fully version controlled and ready for deployment.
+The objective of this project is to automate the repetitive process of code input during a code raid in a game. By doing so, it simplifies testing multiple code combinations while keeping track of progress, so the user can focus on other aspects of the game.
 
 Happy coding!
